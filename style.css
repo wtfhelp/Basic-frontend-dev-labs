@@ -4,9 +4,13 @@ body{
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
+h1{
+    font-size: 40px;
+}
 h2{
     font-size: 42px;
 }
+
 button{
     font-family: 'Titillium Web', sans-serif;
     font-weight: regular;
@@ -56,6 +60,7 @@ button:hover{
 }
 .big_button_content{
     background-color: #eb7d4b;
+    color: white;
     width: 295px;
     height: 71px;
     margin-bottom: 146px;

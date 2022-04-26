@@ -1,14 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
 
 body{
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
-h1{
-    font-size: 40px;
-}
+
 h2{
     font-size: 42px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 18px;    
+}
+
+h5{
+    font-size: 24px;
+}
+
+hr{
+    width: 88px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border:0px;
 }
 
 button{
@@ -17,7 +34,6 @@ button{
     border: medium none;
     background-image: none; 
     background: transparent;
-    float: left;
     background-color: transparent;
     font-size: 16px;
     border-radius:5px;
@@ -28,6 +44,23 @@ button:hover{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   
+}
+::placeholder{
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    padding-left: 26px;
+    padding-top: 23px;
+}
+input{
+    background-color: #273971;
+    border-radius: 5px;
+    outline: none;
+    
+}
+textarea{
+    background-color: #273971;
+    border-radius: 5px;
 }
 .welcome{
     background-color: #87509c;
@@ -63,11 +96,130 @@ button:hover{
     color: white;
     width: 295px;
     height: 71px;
-    margin-bottom: 146px;
     box-shadow: 0px 4px #eb7e4b4e;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+.testimonials{
+    background-color: #d74580;
+    height: 896px;
+}
+.head{
+    padding-top: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 105px 10px;
+    color: white;
+}
+.head_text_test{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.desc_text_test{
+    color: white;
+    font-weight: 400;
+}
 
+.content_test{
+    display: grid;
+    grid-template-columns: 40rem 0;
+    grid-template-rows: 15rem 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: 9rem 20rem;
+    height: 100%;
+    margin-top: 82px;
+    margin-left: 169px;
+}
+
+.base{
+    border: 1px solid #777777;
+    background-color: #777777;
+    border-radius: 50%;
+    width: 97px;
+    height: 97px;
+}
+.card_content{
+    display: grid;
+    grid-template-rows: 7rem 2rem ;
+}
+.card_item0{
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 21px;
+    width: 23rem;
+}
+.card_item1{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.card_item2{
+    color: #ffdd99;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.getintouch{
+    height: 932px;
+    background-color: #3c5399;
+}
+
+form{
+    text-align: center;
+    justify-items: center;
+    margin-top: 110px;
+}
+.name_input{
+    width: 415px;
+    height: 57px;
+}
+.email_input{
+    width: 415px;
+    height: 57px;
+    margin-left: 17px;
+}
+.message_input{
+    width: 861px;
+    height: 201px;
+    margin-top: 26px;
+}
+.submit_button{
+    width: 294px;
+    height: 71px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #2fb9e7;
+    box-shadow: 0px 4px #2fb9e742;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.submit_button:hover{
+    box-shadow: none;
+    background-color: #273971;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer{
+    display: grid;
+    height: 113px;
+    color: white;
+    background-color: #334b8e;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+}
+.social_media{
+    
+}

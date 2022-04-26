@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+h2{
+    font-size: 42px;
+}
+button{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: regular;
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius:5px;
+}
+button:hover{
+    background-color: #633a79;
+    box-shadow: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+.welcome{
+    background-color: #87509c;
+    padding-top: 57px;
+    height: 597px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 40vw 6vw 6vw 6vw 6vw 6vw ;
+    justify-content: center;
+    align-items: center;
+}
+.button_nav{
+    color: white;
+    height: 35px;
+    width: auto;
+}
+.content{
+    display: grid;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-rows: 8vh 30vh; 
+    justify-items: center;
+    text-align: center;
+}
+.text_content{
+    color: white;
+    margin-top: 53px;
+}
+.big_button_content{
+    background-color: #eb7d4b;
+    width: 295px;
+    height: 71px;
+    margin-bottom: 146px;
+    box-shadow: 0px 4px #eb7e4b4e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+

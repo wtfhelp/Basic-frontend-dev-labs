@@ -4,7 +4,11 @@ body{
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
-
+a{
+    color: white;
+    text-decoration: none !important;
+    border: none !important;
+}
 h2{
     font-size: 42px;
 }
@@ -215,11 +219,9 @@ form{
 
 .footer{
     display: grid;
-    height: 113px;
+    justify-content: center;
+    text-align: center;
     color: white;
     background-color: #334b8e;
-    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
-}
-.social_media{
-    
+    grid-template-columns:  9rem 9rem 9rem 9rem 9rem 9rem 9rem;
 }

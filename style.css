@@ -50,6 +50,7 @@ h4{
     height: 105px;
     background-color: white;
     border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
    
     margin-top: 1%;
     margin-left: 5%;

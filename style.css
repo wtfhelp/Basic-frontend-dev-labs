@@ -155,20 +155,27 @@ i{
   }
 
   .menu {
+    visibility: hidden;
     position: fixed;
+    width: 1%;
+    height: 11%;
     transform: translateY(-106%);
     transition: transform 0.2s;
     top: 0;
-    left: 0;
-    right: 0;
+    right: 8rem;
+    padding-right: 16%;
     bottom: 0;
     z-index: 99;
     background: black;
     color: white;
     list-style: none;
-    /* padding-top: 4rem; */
   }
-
+  .menu_disabled{
+    visibility: hidden;
+  }
+  .menuItem{
+    color: white;
+  }
   .showMenu {
     transform: translateY(0);
   }
@@ -238,6 +245,7 @@ i{
     }
     .content{
         text-align: center;
+        margin-right: 5%;
         margin-top: 5%;
         grid-template-rows: 100px 50px 100px 100px;
         justify-content: center;
@@ -258,6 +266,21 @@ i{
     }
 }
 @media (max-width: 717px) {
+    h1{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .content{
+        grid-template-rows: 70px 80px 80px 100px;
+    }
+    .email{
+        margin-right: 5rem;
+    }
+    .submit_btn{
+        margin-left: 32%;
+    }
     .home{
     visibility: hidden;
     }
@@ -276,5 +299,27 @@ i{
     .hamburger{
     visibility: visible;
     }
+    .menu{
+        visibility: visible;
+        background-color: #006699;
+        margin-top: 5rem;
+        border-radius: 10px;
+        height: 7rem;
+    }
+    .menuItem{
+        color: white;
+    }
+    .saly{
+        margin-left: 20%;
+        zoom: 40%;
+    }
     
+}
+@media (max-width: 573px) {
+    .navigation{
+        width: 24rem;
+    }
+    .hamburger{
+        right: 4rem;
+    }
 }
